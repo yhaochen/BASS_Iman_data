@@ -1,9 +1,21 @@
 # This script plots the radial plots for the sensitivity analysis.
+
+#Hosseini-Shakib, I., Sharma, S., Lee, B.S., Srikrishnan, V.A., 
+# Nicholas, R., & Keller, K. (2022). Uncertainties surrounding flood hazard 
+# estimates is the primary driver of riverine flood risk projections. preprint
+
+#Owner of the data: Iman Hoseeini-Shakib (ishakib@gmail.com)
+
+#Author of the scripts: Haochen Ye (hxy46@psu.edu)
+
 # This script is modified based on "12-radial_plot_risk.R"
+#More details about the study: https://github.com/imshakib/Hosseini-Shakib_etal_2022_preprint
+
 rm(list = ls())
 graphics.off()
 library(plotrix)
 
+#Set the working directory
 folder <- "/storage/work/h/hxy46/Sensitivity/Iman_test"
 setwd(folder)
 
