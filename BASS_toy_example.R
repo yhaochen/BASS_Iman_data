@@ -10,7 +10,7 @@ library(BASS)
 library(lhs)
 
 #Set the working directory
-folder <- "/storage/work/h/hxy46/Sensitivity/Iman_test"
+folder <- "./BASS_Iman_data"
 setwd(folder)
 
 #A simple bivariate function example
